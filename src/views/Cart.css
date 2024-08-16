@@ -1,0 +1,9 @@
+#btnCart {
+    transition: .5s;
+}
+#btnParent:hover #btnCart {
+    color: black!important;
+}
+.text-color-default {
+    color: rgb(235, 161, 12);
+}

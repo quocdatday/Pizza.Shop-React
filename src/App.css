@@ -1,0 +1,96 @@
+html,
+body {
+	overflow-x: hidden;
+}
+:root {
+	--colorBoder: #f5900c;
+}
+
+.special-font {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 2rem;
+	color: rgb(235, 161, 12);
+}
+
+.mainBG1 {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+.mainBG2 {
+	position: absolute;
+	inset: 0;
+	background: black;
+	opacity: 0.5;
+	z-index: 0;
+}
+
+.mainBG3 {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.rolling {
+	transition: transform .5s ease;
+	border: 1px solid black;
+}
+
+.rolling:hover {
+	transform: rotate(315deg);
+	background-color: var(--colorBoder)!important;
+	border-color: var(--colorBoder)!important;
+}
+
+.img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	object-fit: cover;
+}
+
+.imgCircle {
+	background-size: cover;
+	border-radius: 50%;
+	max-width: 60px;
+	max-height: 60px;
+}
+
+.btn-toggle-edit {
+	color: rgb(235, 161, 12) !important;
+	font-size: 1.5rem;
+	opacity: 1;
+	border: 1px solid rgb(235, 161, 12);
+}
+
+.btnHover:hover {
+	color: white !important;
+	background: var(--colorBoder)!important;
+	border-color: var(--colorBoder)!important;
+}
+
+.bHover {
+	background-color: var(--colorBoder)!important;
+	color: white !important;
+}
+
+.bHover:hover {
+	background-color: transparent !important;
+	border-color: var(--colorBoder)!important;
+	color: var(--colorBoder)!important;
+}
+.acti:hover {
+	background: var(--colorBoder)!important;
+	color: white!important;
+}
+.active {
+	color: var(--colorBoder)!important;
+}
+#v-pills-tab .btnHover.active {
+	background-color: var(--colorBoder)!important;
+}
+.headerPage ul li.nav-item a:hover {
+	color: var(--colorBoder)!important;
+}

@@ -1,0 +1,6 @@
+#v-pills-tab .active {
+    color: white!important;
+}
+#Edit {
+    transition: .8s;
+}
